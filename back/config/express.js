@@ -16,7 +16,7 @@ module.exports = function () {
   app.use(methodOverride()); // put , delete 요청 처리
 
   app.use(cors()); // 웹브라우저 cors 설정을 관리
-  app.use(express.static("/home/ubuntu/food-map/front"));
+  app.use(express.static("/home/ubuntu/foodinfo/front"));
   
   // app.use(express.static(process.cwd() + '/public'));
 
